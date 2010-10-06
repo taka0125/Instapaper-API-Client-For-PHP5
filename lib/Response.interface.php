@@ -2,7 +2,7 @@
 interface Instapaper_ResponseInterface
 {
     function isSuccess();
-    function isFaild();
+    function isFailed();
     function statusCode();
     function message();
 }

@@ -36,9 +36,9 @@ class Instapaper_Client
         return $this->request->isSuccess();
     }
 
-    function isFaild()
+    function isFailed()
     {
-        return $this->request->isFaild();
+        return $this->request->isFailed();
     }
 
     protected function headers($request)

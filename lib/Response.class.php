@@ -18,7 +18,7 @@ abstract class Instapaper_Response implements Instapaper_ResponseInterface
         return false;
     }
 
-    function isFaild()
+    function isFailed()
     {
         return !$this->isSuccess();
     }

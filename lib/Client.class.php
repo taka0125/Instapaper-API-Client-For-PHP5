@@ -31,16 +31,6 @@ class Instapaper_Client
         return $this->request->response($http_response_header);
     }
 
-    function isSuccess()
-    {
-        return $this->request->isSuccess();
-    }
-
-    function isFailed()
-    {
-        return $this->request->isFailed();
-    }
-
     protected function headers($request)
     {
         $base_headers = array('Content-type: application/x-www-form-urlencoded');
